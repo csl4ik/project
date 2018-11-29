@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      p{ transition: 0.5;}
+      p:hover{
+        color: red;
+        transition: 0.5s color, 0.5s font-size;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><%= "title" %></h1>
+    <P>Welcome to <%- title %></p>
+  </body>
+</html>
